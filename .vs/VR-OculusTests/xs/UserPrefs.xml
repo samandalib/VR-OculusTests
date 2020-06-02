@@ -1,16 +1,20 @@
 ﻿<Properties StartupConfiguration="{33632615-1B66-5878-A3CA-9541B31AB93E}|">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EscapeRoom/Scripts/PauseMenuLogic.cs">
+    <Files>
+      <File FileName="Assets/EscapeRoom/Scripts/PauseMenuLogic.cs" Line="1" Column="1" />
+      <File FileName="Assets/EscapeRoom/Scripts/PauseMenuLogic.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="VR-OculusTests" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="EscapeRoom" expanded="True">
-                <Node name="Scripts" expanded="True" />
+                <Node name="Scripts" expanded="True">
+                  <Node name="PauseMenuLogic.cs" selected="True" />
+                </Node>
               </Node>
-              <Node name="Scripts" expanded="True">
-                <Node name="OVRAnchorVelocity Estimator.cs" selected="True" />
-              </Node>
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -19,7 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e7f99981-cbea-4d08-a39a-7fc9077607e7" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0e8e093c-3266-402a-b0b4-a50c5820655a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
