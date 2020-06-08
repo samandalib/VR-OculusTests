@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewAudioMixer
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300002}
+  m_Snapshots:
+  - {fileID: 24500006}
+  m_StartSnapshot: {fileID: 24500006}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews:
+  - guids:
+    - e7e1d14c0bf644be8a93cb2c5f4f4e97
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 24500006}
+--- !u!243 &24300002
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: e7e1d14c0bf644be8a93cb2c5f4f4e97
+  m_Children: []
+  m_Volume: 5b571f35b1bea4c00bb9989b9b9d12eb
+  m_Pitch: e914fc5cba260494191737112de13984
+  m_Effects:
+  - {fileID: 24400004}
+  - {fileID: 244412009403521266}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400004
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: d357a68a1ee10481795e8dca897dc7f7
+  m_EffectName: Attenuation
+  m_MixLevel: 1ed63030d6286438d9fd1f6874b8749c
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500006
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Snapshot
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: f5bd0117ccada43b49a8dcfa1f9afa7e
+  m_FloatValues:
+    ffd7a49033a18412fa6861207eab86c9: 0.5
+    9a7418513cead493f879d9cf98125fb9: 0.5
+    902c7dd21815a41aa8e6d8c42370f050: 0
+    6b9e5a437dfe44e4195b8e1143a87d1f: 1
+    7f1c106574aad4212b4de7144c7cb7ec: 100
+    cbdab3d5468e74e749ed7e315d056b1c: 0.5
+    1ee8bb76cf88747f2bd0090593795807: 0.5
+    3d287828c1dc7498b9c2738dfe8139ec: 0.5
+    86413678ecc8f4ff5848154c79069946: 40
+    9c51a019df4cd46f7a63ab47dcc6d090: 0.5
+    b7784fb9aa07249c08fd7671b1093982: 1
+    7447ffdb63e73449dacbdb6e7e0aa0f3: 35
+    f7116c7cd1a2242198915ae547c55f91: 1
+    9a15ccfdc40d24cf48a68843247348ea: 250
+    6caa331e6f1b949c5b3efe656f339b97: 0
+    0d9a9fefc68ad41c9935d984155ab089: 55
+  m_TransitionOverrides: {}
+--- !u!244 &244412009403521266
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 1fd397993f95448118aa9d02569764d7
+  m_EffectName: OculusSpatializerReflection
+  m_MixLevel: dd278127c3cf047cf8bad580f57b0a24
+  m_Parameters:
+  - m_ParameterName: GScale
+    m_GUID: 6b9e5a437dfe44e4195b8e1143a87d1f
+  - m_ParameterName: E.Rflt On
+    m_GUID: f7116c7cd1a2242198915ae547c55f91
+  - m_ParameterName: E.Rflt Rev On
+    m_GUID: 902c7dd21815a41aa8e6d8c42370f050
+  - m_ParameterName: Room X
+    m_GUID: 7447ffdb63e73449dacbdb6e7e0aa0f3
+  - m_ParameterName: Room Y
+    m_GUID: 86413678ecc8f4ff5848154c79069946
+  - m_ParameterName: Room Z
+    m_GUID: 0d9a9fefc68ad41c9935d984155ab089
+  - m_ParameterName: Left
+    m_GUID: ffd7a49033a18412fa6861207eab86c9
+  - m_ParameterName: Right
+    m_GUID: 9a7418513cead493f879d9cf98125fb9
+  - m_ParameterName: Up
+    m_GUID: 1ee8bb76cf88747f2bd0090593795807
+  - m_ParameterName: Down
+    m_GUID: 9c51a019df4cd46f7a63ab47dcc6d090
+  - m_ParameterName: Behind
+    m_GUID: 3d287828c1dc7498b9c2738dfe8139ec
+  - m_ParameterName: Front
+    m_GUID: cbdab3d5468e74e749ed7e315d056b1c
+  - m_ParameterName: Shared Rev Min
+    m_GUID: b7784fb9aa07249c08fd7671b1093982
+  - m_ParameterName: Shared Rev Max
+    m_GUID: 9a15ccfdc40d24cf48a68843247348ea
+  - m_ParameterName: Shared Rev Wet
+    m_GUID: 6caa331e6f1b949c5b3efe656f339b97
+  - m_ParameterName: Prop Quality
+    m_GUID: 7f1c106574aad4212b4de7144c7cb7ec
+  - m_ParameterName: Voice Limit
+    m_GUID: df8119bab26b1476bba5ef52aa2c1b46
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
